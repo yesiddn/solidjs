@@ -32,3 +32,18 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+## Primitivas reactivas ⚛️
+
+En SolidJS, las primitivas reactivas son funciones y objetos que se utilizan para definir y gestionar el estado de un componente y reaccionar automáticamente a los cambios en ese estado. 🔄
+
+🎣 Una de estas primitivas es el createEffect. 🎯
+
+### createEffect (effect)
+
+✨ El createEffect es un hook que permite ejecutar un efecto secundario, como una función, cuando algún valor reactivo dentro de su alcance cambia. 🔄
+El createEffect se ejecutará automáticamente cada vez que alguno de los datos reactivos que se utilizan dentro de su bloque cambie.
+
+### createSignal (signal)
+
+✨ El createSignal es un hook que permite crear un valor reactivo, una función para obtener el valor y otra función para actualizar ese valor. 🔄
