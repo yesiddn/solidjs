@@ -47,3 +47,13 @@ El createEffect se ejecutará automáticamente cada vez que alguno de los datos 
 ### createSignal (signal)
 
 ✨ El createSignal es un hook que permite crear un valor reactivo, una función para obtener el valor y otra función para actualizar ese valor. 🔄
+
+### createMemo (memo)
+
+Es una función que te permite crear un valor derivado de otros valores, pero que solo se actualiza cuando alguno de esos valores cambia. 🔗
+
+Es como una fórmula matemática que depende de otras variables pero que solo se recalcula cuando es necesario. 📊
+
+Por ejemplo, si tienes una función memo que suma dos números, y esos números no cambian, la función memo no hará nada. 🧮 Pero si cambias uno de esos números, la función memo volverá a sumarlos y te dará el nuevo resultado. 🔄
+
+La ventaja de usar memo 🚀 es que puedes optimizar el rendimiento de tu aplicación, evitando cálculos innecesarios o repetitivos. ⏩ Además, puedes usar memo para crear valores reactivos que se sincronicen con otros valores, como el estado de tu aplicación o los datos que recibes de una API. 📡
