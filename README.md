@@ -57,3 +57,11 @@ Es como una fórmula matemática que depende de otras variables pero que solo se
 Por ejemplo, si tienes una función memo que suma dos números, y esos números no cambian, la función memo no hará nada. 🧮 Pero si cambias uno de esos números, la función memo volverá a sumarlos y te dará el nuevo resultado. 🔄
 
 La ventaja de usar memo 🚀 es que puedes optimizar el rendimiento de tu aplicación, evitando cálculos innecesarios o repetitivos. ⏩ Además, puedes usar memo para crear valores reactivos que se sincronicen con otros valores, como el estado de tu aplicación o los datos que recibes de una API. 📡
+
+## Levantar un servidor de desarrollo
+
+Para levantar un servidor de desarrollo en la carpeta mini-solid, ejecuta el siguiente comando:
+
+```bash
+npx http-server
+```

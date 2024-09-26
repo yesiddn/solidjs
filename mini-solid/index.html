@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Mini Solid</h1>
+    <p>Count: <span id="count"></span></p>
+    <p>Double: <span id="double"></span></p>
+
+    <h2>Is divisible by three: <span id="divisibleByThree"></span></h2>
+
+    <button>Increment</button>
+  </div>
+
+  <!-- este es un nuevo tipo de archivo que permite mapear las dependencias, de esta forma creamos un "namespace" para las dependencias y asi, en lugar de escribir `import { solid } from "./solid";` podemos escribir `import { solid } from "solid";` -->
+  <script type="importmap">
+  {
+    "imports": {
+      "solid-js": "./solid.js"
+    }
+  }
+  </script>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
